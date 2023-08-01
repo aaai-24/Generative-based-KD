@@ -1,0 +1,19 @@
+model:
+  in_channels: 3
+  freeze_bn: False
+  freeze_bn_affine: False
+
+training:
+  batch_size: 6
+  learning_rate: 1e-3
+  weight_decay: 5e-4
+  max_epoch: 200
+  checkpoint_path: ./models/ucf101/Top_I3D/
+  teacher: ./models/ucf101/teacher.ckpt
+  teacher_cvae:  ./models/ucf101/teacher_cvae.ckpt
+  beta: 0.1
+  random_seed: 2020
+
+
+testing:
+  checkpoint_path: ./models/ucf101/ucf101-rgb.ckpt

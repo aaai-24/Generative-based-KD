@@ -1,0 +1,16 @@
+model:
+  in_channels: 2
+  freeze_bn: False
+  freeze_bn_affine: False
+
+training:
+  batch_size: 12
+  learning_rate: 1e-2
+  weight_decay: 5e-4
+  max_epoch: 200
+  checkpoint_path: ./models/ucf101/Top_I3D_flow/
+  random_seed: 2020
+
+
+testing:
+  checkpoint_path: ./models/ucf101/ucf101-flow.ckpt
