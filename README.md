@@ -1,6 +1,6 @@
 # Generative-based-KD
 
-This is the official repo of article *Generative Model-based Feature Knowledge Distillation for Action Recognition* which is accepted by AAAI-24.
+This is the official repo of article [*Generative Model-based Feature Knowledge Distillation for Action Recognition*](https://ojs.aaai.org/index.php/AAAI/article/view/29473) which is accepted by AAAI-24.
 
 For action detection task(TAL), we follow the environment setup of AFSD, which can be found [here](https://github.com/TencentYoutuResearch/ActionDetection-AFSD).
 
